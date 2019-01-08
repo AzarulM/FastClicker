@@ -1,0 +1,19 @@
+.root{
+    -fx-background-color: Cyan;
+
+}
+
+Button
+{
+    -fx-min-width: 100px;
+    -fx-max-width: 100px;
+    -fx-min-height: 50px;
+    -fx-max-height: 50px;
+    -fx-background-color: white;
+}
+
+Button:pressed
+{
+    -fx-background-color: gray;
+
+}
